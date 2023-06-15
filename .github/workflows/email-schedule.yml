@@ -12,6 +12,7 @@ jobs:
       - name: Install dependencies
         run: |
           install.packages("blastula", type = "win.binary")
+          install.packages("ggplot2", type= "win.binary")
         shell: Rscript {0}
       - name: Script
         run: Rscript send_email.R
