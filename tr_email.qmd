@@ -1,0 +1,24 @@
+---
+title: "TR Emails"
+format: blastula::blastula_email
+editor: visual
+---
+
+## Monthly Reports
+
+Find attached your performance report for the month ending June 30th 2023.
+
+## Performance
+
+The first plot is your performance on your client time dealings
+
+```{r}
+#| echo: false
+library(ggplot2)
+ggplot(iris,aes(x=Sepal.Length,y=Sepal.Width))+
+  geom_point()
+```
+
+## Conclusion
+
+We need to reduce the time we use with our clients, as that reduces the chances of your facility being found with fraud.
